@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 function About() {
   return (
@@ -12,7 +13,9 @@ function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="text-left p-10">
-        <h1 className="text-center text-4xl font-bold">Timeline tecnológico</h1>
+        <h1 className="text-center text-4xl font-bold">
+          ⏰ Timeline tecnológico
+        </h1>
         <br />
         <strong className="text-2xl">2020</strong>
         <br />
@@ -31,6 +34,16 @@ function About() {
         <br />
 
         <strong className="text-2xl">2021</strong>
+        <br />
+        <br />
+        <p>Setup 2021 - El Salvador, San Salvador</p>
+        <br />
+        <Image
+          src="/setup-2021.jpg"
+          width={800}
+          height={500}
+          alt="Setup 2021"
+        />
         <br />
         <br />
         <ol className="text-gray-400">

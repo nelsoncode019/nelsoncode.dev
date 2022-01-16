@@ -7,11 +7,11 @@ function Navbar() {
       <div className="grid bg-body py-4 sm:grid-cols-1 md:grid-cols-3 gap-3">
         <div className="hidden md:block">
           <nav className="flex sm:justify-center">
-            <Link
-              href="/"
-              className="rounded-lg px-3 py-3 text-white font-medium hover:bg-slate-100 hover:text-slate-900"
-            >
-              NelsonCode
+            {/* eslint-disable-next-line @next/next/link-passhref */}
+            <Link href="/">
+              <div className="cursor-pointer rounded-lg px-3 py-3 text-white font-medium hover:bg-slate-100 hover:text-slate-900">
+                NelsonCode
+              </div>
             </Link>
           </nav>
         </div>
@@ -36,7 +36,6 @@ function Navbar() {
             <a
               target="_blank"
               href="https://www.youtube.com/c/NelsonCode"
-              className="px-3 py-3"
               rel="noreferrer"
             >
               <Youtube />

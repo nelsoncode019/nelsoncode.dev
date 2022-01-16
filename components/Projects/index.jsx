@@ -6,6 +6,8 @@ import Youtube from "../../icons/youtube";
 function Projects() {
   return (
     <>
+      <br />
+      <br />
       <div className="text-center">
         <h1 className="text-4xl font-bold">Sobre mí</h1>
       </div>
@@ -78,6 +80,7 @@ function Projects() {
           </div>
         </div>
       </div>
+      <br />
     </>
   );
 }

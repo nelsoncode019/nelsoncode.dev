@@ -5,7 +5,6 @@ import Twitter from "../../icons/Twitter";
 import Instagram from "../../icons/Instagram";
 import Linkedin from "../../icons/Linkedin";
 
-
 function Footer() {
   return (
     <footer className="footer bg-black relative pt-1">
@@ -17,19 +16,44 @@ function Footer() {
                 Redes Sociales
               </span>
               <div className="flex justify-center pt-5">
-                <a target="_blank" href="https://github.com/nelsoncode019" className="pl-4" rel="noreferrer">
+                <a
+                  target="_blank"
+                  href="https://github.com/nelsoncode019"
+                  className="pl-4"
+                  rel="noreferrer"
+                >
                   <Github />
                 </a>
-                <a target="_blank" href="https://www.facebook.com/nelsoncode.dev/" className="pl-4" rel="noreferrer">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/nelsoncode.dev/"
+                  className="pl-4"
+                  rel="noreferrer"
+                >
                   <Facebook />
                 </a>
-                <a target="_blank" href="https://twitter.com/nelsoncode_dev" className="pl-4" rel="noreferrer">
+                <a
+                  target="_blank"
+                  href="https://twitter.com/nelsoncode_dev"
+                  className="pl-4"
+                  rel="noreferrer"
+                >
                   <Twitter />
                 </a>
-                <a target="_blank" href="https://www.instagram.com/nelsoncode/" className="pl-4" rel="noreferrer">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/nelsoncode/"
+                  className="pl-4"
+                  rel="noreferrer"
+                >
                   <Instagram />
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/nelsoncode/" className="pl-4" rel="noreferrer">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/nelsoncode/"
+                  className="pl-4"
+                  rel="noreferrer"
+                >
                   <Linkedin />
                 </a>
               </div>
@@ -39,17 +63,26 @@ function Footer() {
                 Páginas
               </span>
               <span className="my-2">
-                <a href="#" className="text-slate-500 text-md hover:text-blue-500">
+                <a
+                  href="#"
+                  className="text-slate-500 text-md hover:text-blue-500"
+                >
                   Inicio
                 </a>
               </span>
               <span className="my-2">
-                <a href="#" className="text-slate-500  text-md hover:text-blue-500">
+                <a
+                  href="#"
+                  className="text-slate-500  text-md hover:text-blue-500"
+                >
                   Blog
                 </a>
               </span>
               <span className="my-2">
-                <a href="#" className="text-slate-500 text-md hover:text-blue-500">
+                <a
+                  href="#"
+                  className="text-slate-500 text-md hover:text-blue-500"
+                >
                   Acerca de
                 </a>
               </span>
@@ -62,7 +95,8 @@ function Footer() {
                 <a
                   target="_blank"
                   href="https://www.youtube.com/playlist?list=PL6W7ibpXPiOTegBEI9VesVOtl-1-O1eo6"
-                  className="text-slate-500 text-md hover:text-blue-500" rel="noreferrer"
+                  className="text-slate-500 text-md hover:text-blue-500"
+                  rel="noreferrer"
                 >
                   Python
                 </a>
@@ -71,7 +105,8 @@ function Footer() {
                 <a
                   target="_blank"
                   href="https://www.youtube.com/playlist?list=PL6W7ibpXPiOTjjqw7ZAVmuPxECbjaBcjC"
-                  className="text-slate-500  text-md hover:text-blue-500" rel="noreferrer"
+                  className="text-slate-500  text-md hover:text-blue-500"
+                  rel="noreferrer"
                 >
                   FastAPI
                 </a>
@@ -80,7 +115,8 @@ function Footer() {
                 <a
                   target="_blank"
                   href="https://www.youtube.com/playlist?list=PL6W7ibpXPiOTWVXxhziqVWb1f75fjv7K-"
-                  className="text-slate-500 text-md hover:text-blue-500" rel="noreferrer"
+                  className="text-slate-500 text-md hover:text-blue-500"
+                  rel="noreferrer"
                 >
                   JavaScript
                 </a>
