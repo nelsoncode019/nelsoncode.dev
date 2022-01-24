@@ -39,3 +39,14 @@ body::-webkit-scrollbar-thumb:hover {
   background-attachment: fixed;
   background-size: cover;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: none;
+}
