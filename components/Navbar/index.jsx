@@ -19,8 +19,7 @@ function Navbar() {
           <nav className="flex sm:justify-center">
             {[
               ["Inicio", "/"],
-              ["Blog", "/blog"],
-              ["Acerca de", "/about"],
+              ["Blog", "https://blog.nelsoncode.dev/"],
             ].map(([title, url]) => (
               // eslint-disable-next-line @next/next/link-passhref
               <Link href={url} key={title}>

@@ -15,10 +15,10 @@ function Presentation() {
         desarrollo web
       </p>
       <br />
-      <button className="btn-bluedark hover:bg-blue-700 text-white font-bold py-4 px-4 rounded-md">
+      <button className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-4 px-4 rounded-md">
         Publicaciones en DEV.to
       </button>
-      <button className="btn-bluedark ml-5 hover:bg-blue-700 text-white font-bold py-4 px-4 rounded-md">
+      <button className="ml-5 bg-blue-700 hover:bg-blue-900 text-white font-bold py-4 px-4 rounded-md">
         Videos en Youtube
       </button>
 
