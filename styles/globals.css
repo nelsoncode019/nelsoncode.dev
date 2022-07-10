@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: #FFDCF2;
+  background: #ffdcf2;
   color: rgb(0, 0, 0);
 }
 
@@ -23,15 +23,15 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 7px;
+  width: 8px;
 }
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
-  background: #7c3aed;
+  background: #DC2777;
 }
 
 /* Handle on hover */
 body::-webkit-scrollbar-thumb:hover {
-  background: #7c3aed;
+  background: #DC2777;
 }
