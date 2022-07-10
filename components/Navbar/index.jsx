@@ -9,7 +9,7 @@ function Navbar() {
           <nav className="flex sm:justify-center">
             {/* eslint-disable-next-line @next/next/link-passhref */}
             <Link href="/">
-              <div className="cursor-pointer rounded-lg px-3 py-3 text-white font-medium hover:bg-slate-100 hover:text-slate-900">
+              <div className="cursor-pointer rounded-lg px-3 py-3  font-medium hover:bg-slate-100 hover:text-slate-900">
                 NelsonCode
               </div>
             </Link>
@@ -23,7 +23,7 @@ function Navbar() {
             ].map(([title, url]) => (
               // eslint-disable-next-line @next/next/link-passhref
               <Link href={url} key={title}>
-                <div className="cursor-pointer rounded-lg px-3 py-3 text-white font-medium hover:bg-slate-100 hover:text-slate-900">
+                <div className="cursor-pointer rounded-lg px-3 py-3  font-medium hover:bg-slate-100 hover:text-slate-900">
                   {title}
                 </div>
               </Link>
