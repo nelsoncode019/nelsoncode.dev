@@ -15,16 +15,16 @@ export default function Home() {
       </Head>
 
       <div className="grid h-screen" style={{ gridTemplateColumns: "90% 10%" }}>
-        <div className="pl-52 pt-28">
+        <div className="p-3 md:pl-52 pt-28">
           <div>
             <p className="pt-2 text-xl">Hi, my name is</p>
           </div>
-          <div className="text-6xl font-extrabold pt-2">
+          <div className="text-4xl md:text-6xl font-extrabold pt-2">
             <span className="bg-clip-text text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
               Nelson Hernández.
             </span>
           </div>
-          <div className="text-6xl font-extrabold pt-2">
+          <div className="text-4xl md:text-6xl font-extrabold pt-2">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-600	 to-pink-600">
               I enjoy creating things on the internet.
             </span>
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="pt-96">
+        <div className="hidden md:block pt-96">
           <div className="flex flex-col gap-4">
             <div>
               <a href="https://github.com/nelsoncode019">
@@ -136,7 +136,7 @@ export default function Home() {
 
       {/* WORK */}
 
-      <div className="pl-52">
+      <div className="p-3 md:pl-52">
         <div className="text-3xl font-extrabold pt-2">
           <span className="bg-clip-text text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
             2. Where I’ve Worked.
@@ -162,9 +162,8 @@ export default function Home() {
             <div className="max-w-3xl">
               <div className="text-3xl font-extrabold pt-2">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
-                  Frontend React Developer -
+                  Frontend React Developer
                 </span>
-                <span className="ml-2">Remote</span>
               </div>
               <p>2020</p>
               <br />
@@ -181,9 +180,8 @@ export default function Home() {
             <div className="max-w-3xl">
               <div className="text-3xl font-extrabold pt-2">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
-                  Full Stack Developer -
+                  Full Stack Developer
                 </span>
-                <span className="ml-2">Remote</span>
               </div>
               <p>2021</p>
               <br />
