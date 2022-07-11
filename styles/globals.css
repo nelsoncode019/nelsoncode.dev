@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb:hover {
     grid-template-columns: 15% 75% 10%;
   }
   .grid-box-about {
-    grid-template-columns: 15% 25% 60%;
+    grid-template-columns: 10% 30% 65%;
   }
 }
 

@@ -208,8 +208,8 @@ export default function Home() {
                 className="rounded-full"
                 alt="Nelson Hernández | NelsonCode"
                 src="/nelson.jpg"
-                height="900px"
-                width="900px"
+                height="500px"
+                width="500px"
               />
             </div>
 
@@ -231,16 +231,16 @@ export default function Home() {
             </div>
 
             <div>
-              <p className="pt-2 text-xl max-w-3xl">
+              <p className="pt-2 text-xl max-w-2xl">
                 My interest in web development started in 2018 in high school
                 programming a movie website for fun.
               </p>
-              <p className="pt-2 text-xl max-w-3xl">
+              <p className="pt-2 text-xl max-w-2xl">
                 My love for web development has made me want to share it with
                 the whole world, both videos recorded for Youtube and live
                 talks.
               </p>
-              <p className="pt-2 text-xl max-w-3xl">
+              <p className="pt-2 text-xl max-w-2xl">
                 Currently I am focused on the Frontend side but in my free time
                 I use <strong>Python</strong> and do magic with{" "}
                 <strong>DevOps</strong>
