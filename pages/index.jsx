@@ -169,7 +169,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="m-auto">
         <div className="grid h-screen grid-box-about gap-3">
           <div className="hidden md:block"></div>
@@ -240,7 +239,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="m-auto mt-20 md:mt-0">
+      <div className="m-auto mt-96 md:mt-0">
         <div className="grid h-screen grid-box-init">
           <div className="hidden md:block"></div>
           <div className="p-4 md:pt-28">
