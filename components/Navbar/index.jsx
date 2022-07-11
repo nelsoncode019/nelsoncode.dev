@@ -1,4 +1,3 @@
-import Youtube from "../../icons/youtube";
 import Link from "next/link";
 
 function Navbar() {
@@ -36,9 +35,7 @@ function Navbar() {
               target="_blank"
               href="https://www.youtube.com/c/NelsonCode"
               rel="noreferrer"
-            >
-              <Youtube />
-            </a>
+            ></a>
           </nav>
         </div>
       </div>
