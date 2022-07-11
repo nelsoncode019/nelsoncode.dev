@@ -168,17 +168,14 @@ export default function Home() {
 
       {/* ABOUT */}
 
-      <div className="p-3 md:pl-64 h-screen hidden md:block">
+      <div className="p-3 md:pl-96 h-screen">
         <div className="text-4xl font-extrabold pt-2">
           <span className="bg-clip-text text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
             1. About.
           </span>
         </div>
         <br />
-        <div
-          className="grid gap-2 max-w-3xl text-xl"
-          style={{ gridTemplateColumns: "75% 25%" }}
-        >
+        <div className="grid gap-2 max-w-3xl text-xl grid-cols-1 md:grid-cols-[600px_minmax(200px,_1fr)_100px]">
           <div>
             <p>
               My interest in web development started in 2018 in high school
@@ -216,13 +213,25 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <Image
-              className="rounded-lg"
-              alt="Nelson Hernández | NelsonCode"
-              src="/nelson.jpg"
-              height={900}
-              width={900}
-            />
+            <div className="hidden md:block ml-10">
+              <Image
+                className="rounded-lg"
+                alt="Nelson Hernández | NelsonCode"
+                src="/nelson.jpg"
+                height={900}
+                width={900}
+              />
+            </div>
+
+            <div className=" md:hidden flex justify-center">
+              <Image
+                className="rounded-lg"
+                alt="Nelson Hernández | NelsonCode"
+                src="/nelson.jpg"
+                height={150}
+                width={150}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -243,16 +252,20 @@ export default function Home() {
           <div>
             <div
               onClick={() => setWork(true)}
-              className={`cursor-pointer text-center border-2 p-2 ${
-                Work ? "border-l-pink-600" : "border-l-transparent"
+              className={`cursor-pointer text-center border-2 p-2 border-b-transparent border-t-transparent border-r-transparent ${
+                Work
+                  ? "border-l-pink-600 bg-pink-300 text-white"
+                  : "border-l-white"
               }`}
             >
               ProPlanner by IPSUM
             </div>
             <div
               onClick={() => setWork(false)}
-              className={`cursor-pointer text-center border-2 p-2 ${
-                !Work ? "border-l-pink-600" : "border-l-transparent"
+              className={`cursor-pointer text-center border-2 p-2 border-b-transparent border-t-transparent border-r-transparent ${
+                !Work
+                  ? "border-l-pink-600 bg-pink-300 text-white"
+                  : "border-l-white"
               }`}
             >
               Agencia Aduanal Méndez Rugamas
