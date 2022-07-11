@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <div className="grid h-screen" style={{ gridTemplateColumns: "90% 10%" }}>
-        <div className="p-3 md:pl-52 pt-28">
+        <div className="p-4 md:pl-52 pt-28">
           <div>
             <p className="pt-2 text-xl">Hi, my name is</p>
           </div>
@@ -168,14 +168,14 @@ export default function Home() {
 
       {/* ABOUT */}
 
-      <div className="p-3 md:pl-96 h-screen">
+      <div className="p-4 m-auto max-w-4xl">
         <div className="text-4xl font-extrabold pt-2">
           <span className="bg-clip-text text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
             1. About.
           </span>
         </div>
         <br />
-        <div className="grid gap-2 max-w-3xl text-xl grid-cols-1 md:grid-cols-[600px_minmax(200px,_1fr)_100px]">
+        <div className="grid gap-2 text-xl grid-cols-1 md:grid-cols-[600px_minmax(200px,_1fr)_100px]">
           <div>
             <p>
               My interest in web development started in 2018 in high school
@@ -238,7 +238,7 @@ export default function Home() {
 
       {/* WORK */}
 
-      <div className="p-3 md:pl-64 h-screen hidden md:block">
+      <div className="p-4 m-auto max-w-4xl hidden md:block">
         <div className="text-4xl font-extrabold pt-2">
           <span className="bg-clip-text text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
             2. Where I’ve Worked.
