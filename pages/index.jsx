@@ -13,6 +13,8 @@ export default function Home() {
           content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
         />
         <meta property="og:image" content="/preview.png" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1080" />
         <meta
           name="description"
           content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
