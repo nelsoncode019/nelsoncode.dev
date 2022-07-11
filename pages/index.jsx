@@ -5,11 +5,19 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nelson Hernández | NelsonCode</title>
+        <meta property="og:url" content="https://www.nelsoncode.dev/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Nelson Hernández | NelsonCode" />
+        <meta
+          property="og:description"
+          content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
+        />
+        <meta property="og:image" content="/preview.png" />
         <meta
           name="description"
-          content="Hola, soy Nelson Hernández amante de Python & JavaScript, me gusta enseñar las tecnologías que voy aprendiendo"
+          content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
         />
+        <title>Nelson Hernández | NelsonCode</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="m-auto">
@@ -19,27 +27,29 @@ export default function Home() {
           </div>
           <div className="p-4 md:pt-28">
             <div>
-              <p className="pt-2 text-xl md:text-2xl">Hi, my name is</p>
+              <p className="pt-2 text-xl md:text-2xl text-center md:text-left">
+                Hi, my name is
+              </p>
             </div>
-            <div className="text-4xl md:text-7xl font-extrabold pt-2">
+            <div className="text-4xl md:text-7xl font-extrabold pt-2 text-center md:text-left">
               <span className="bg-clip-text text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
                 Nelson Hernández.
               </span>
             </div>
-            <div className="text-4xl md:text-6xl font-extrabold pt-2">
+            <div className="text-4xl md:text-6xl font-extrabold pt-2 text-center md:text-left">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-600	 to-pink-600">
                 I enjoy creating things on the internet.
               </span>
             </div>
 
             <div>
-              <p className="pt-2 text-xl max-w-3xl">
+              <p className="pt-2 text-xl max-w-3xl text-center md:text-left">
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 I'm a Frontend Developer. I like to design exceptional digital
                 experiences. I also love to share what I learn every day.
               </p>
             </div>
-            <div>
+            <div className="text-center md:text-left">
               <a
                 href="https://www.youtube.com/c/NelsonCode"
                 className="bg-transparent hover:bg-pink-600 text-pink-600 font-semibold hover:text-white py-2 mt-6 px-4 border border-pink-600 hover:border-transparent rounded inline-flex items-center ease-in-out"
@@ -167,7 +177,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="m-auto">
+      <div className="m-auto text-center md:text-left">
         <div className="grid h-screen grid-box-about gap-3">
           <div className="hidden md:block"></div>
           <div>
@@ -237,7 +247,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="m-auto mt-96 md:mt-0">
+      <div className="m-auto mt-96 md:mt-0 text-center md:text-left">
         <div className="grid h-screen grid-box-init">
           <div className="hidden md:block"></div>
           <div className="p-4 md:pt-28">
