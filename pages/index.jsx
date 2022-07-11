@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <div className="grid h-screen" style={{ gridTemplateColumns: "90% 10%" }}>
-        <div className="p-4 md:pl-52 pt-28">
+        <div className="p-3 md:pl-52 md:pt-28">
           <div>
             <p className="pt-2 text-xl">Hi, my name is</p>
           </div>
