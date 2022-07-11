@@ -35,3 +35,59 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: #dc2777;
 }
+
+@media (min-width: 576px) {
+  .grid-box-init {
+    grid-template-columns: 100%;
+  }
+  .grid-box-about {
+    grid-template-columns: 100%;
+  }
+}
+
+@media (min-width: 960px) {
+  .grid-box-init {
+    grid-template-columns: 15% 75% 10%;
+  }
+  .grid-box-about {
+    grid-template-columns: 15% 25% 60%;
+  }
+}
+
+.cards {
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  overflow-y: hidden;
+  gap: 25%;
+}
+.card {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  padding: 10px;
+}
+.card > p {
+  width: 250%;
+}
+/* SCROLL CONTAINER */
+.scroll-container {
+  overflow: scroll;
+  height: 50px;
+  width: auto;
+  overflow-y: hidden;
+  transition: 1s;
+}
+.scroll-container::-webkit-scrollbar {
+  background: rgb(221, 210, 210);
+}
+
+/* Handle */
+.scroll-container::-webkit-scrollbar-thumb {
+  background: black;
+  width: 8px;
+}
+/* Handle on hover */
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #dadce0;
+  border-radius: 5px;
+}
