@@ -1,9 +1,7 @@
 import Head from "next/head";
-import { useState } from "react";
 import Image from "next/image";
 
 export default function Home() {
-  const [Work, setWork] = useState(true);
   return (
     <>
       <Head>
