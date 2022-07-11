@@ -43,7 +43,7 @@ export default function Home() {
               href="https://www.youtube.com/c/NelsonCode"
               className="bg-transparent hover:bg-pink-600 text-pink-600 font-semibold hover:text-white py-2 mt-6 px-4 border border-pink-600 hover:border-transparent rounded inline-flex items-center ease-in-out"
             >
-              <span className="ml-1">Check out my Youtube Channel</span>
+              <span className="ml-1">Youtube Channel</span>
             </a>
           </div>
         </div>
@@ -272,7 +272,7 @@ export default function Home() {
             </div>
           </div>
           {Work ? (
-            <div className="max-w-2xl">
+            <div>
               <div className="font-extrabold pt-2">
                 <span className="bg-clip-text text-3xl text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
                   Frontend React Developer
@@ -290,7 +290,7 @@ export default function Home() {
               </ul>
             </div>
           ) : (
-            <div className="max-w-3xl">
+            <div>
               <div className="font-extrabold pt-2">
                 <span className="bg-clip-text text-3xl text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
                   Full Stack Developer
