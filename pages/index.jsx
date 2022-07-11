@@ -20,7 +20,7 @@ export default function Home() {
           content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
         />
         <title>Nelson Hernández | NelsonCode</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/nelson.jpg" />
       </Head>
       <div className="m-auto">
         <div className="grid h-screen grid-box-init">
@@ -64,7 +64,11 @@ export default function Home() {
           <div className="hidden md:block mt-96">
             <div className="flex flex-col gap-4">
               <div>
-                <a href="https://github.com/nelsoncode019">
+                <a
+                  href="https://github.com/nelsoncode019"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     width="24px"
                     height="24px"
@@ -85,7 +89,11 @@ export default function Home() {
                 </a>
               </div>
               <div>
-                <a href="https://twitter.com/nelsoncode_dev">
+                <a
+                  href="https://twitter.com/nelsoncode_dev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     width="24px"
                     height="24px"
@@ -107,7 +115,11 @@ export default function Home() {
                 </a>
               </div>
               <div>
-                <a href="https://www.instagram.com/nelsoncode/">
+                <a
+                  href="https://www.instagram.com/nelsoncode/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     width="24px"
                     height="24px"
@@ -129,7 +141,11 @@ export default function Home() {
               </div>
 
               <div>
-                <a href="https://www.linkedin.com/in/nelsoncode/">
+                <a
+                  href="https://www.linkedin.com/in/nelsoncode/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     width="24px"
                     height="24px"
@@ -152,7 +168,11 @@ export default function Home() {
               </div>
 
               <div>
-                <a href="https://www.facebook.com/nelsoncode.dev">
+                <a
+                  href="https://www.facebook.com/nelsoncode.dev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <svg
                     width="24px"
                     height="24px"
@@ -277,6 +297,8 @@ export default function Home() {
                   We use React, Ant Design, PostgreSQL, and Express JS.
                 </p>
                 <a
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://www.proplanner.build/"
                   className="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700"
                 >
@@ -310,7 +332,7 @@ export default function Home() {
                 </p>
                 <p className="mb-4 text-gray-500">
                   I used React, CSS Vanilla, MongoDB, Node JS, Websockets and
-                  DigitalOcean.{" "}
+                  DigitalOcean.
                 </p>
               </li>
             </ol>
