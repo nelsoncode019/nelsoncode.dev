@@ -9,7 +9,7 @@ function Home() {
       <Head>
         <link rel="icon" href={`${path}/nelson.jpg`} />
         <title>Nelson Hernández | NelsonCode</title>
-        <meta property="og:url" content="https://www.nelsoncode.dev/" />
+        <meta property="og:url" content={path} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Nelson Hernández | NelsonCode" />
         <meta
