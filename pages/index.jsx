@@ -20,7 +20,6 @@ function Home() {
         <meta name="twitter:site" content="@nelsoncode_dev" />
         <meta name="twitter:creator" content="@nelsoncode_dev" />
         <meta name="twitter:description" content={description}></meta>
-        <meta property="og:title" content="Nelson Hernández | NelsonCode" />
         <meta property="og:image" content={`${path}/preview.png`} />
         <meta property="og:image:width" content="1920" />
         <meta property="og:image:height" content="1080" />
