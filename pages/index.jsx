@@ -1,10 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 
-export default function Home() {
+function Home() {
+  const path =
+    process.env.NODE_ENV === "development" ? "" : "https://www.nelsoncode.dev";
   return (
     <>
       <Head>
+        <link rel="icon" href={`${path}/nelson.jpg`} />
+        <title>Nelson Hernández | NelsonCode</title>
         <meta property="og:url" content="https://www.nelsoncode.dev/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Nelson Hernández | NelsonCode" />
@@ -12,15 +16,21 @@ export default function Home() {
           property="og:description"
           content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
         />
-        <meta property="og:image" content="/preview.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@nelsoncode_Dev" />
+        <meta name="twitter:creator" content="@nelsoncode_dev" />
+        <meta
+          name="twitter:description"
+          content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
+        ></meta>
+        <meta property="og:title" content="Nelson Hernández | NelsonCode" />
+        <meta property="og:image" content={`${path}/preview.png`} />
         <meta property="og:image:width" content="1920" />
         <meta property="og:image:height" content="1080" />
         <meta
           name="description"
           content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
         />
-        <title>Nelson Hernández | NelsonCode</title>
-        <link rel="icon" href="/nelson.jpg" />
       </Head>
       <div className="m-auto">
         <div className="grid h-screen grid-box-init">
@@ -342,3 +352,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;
