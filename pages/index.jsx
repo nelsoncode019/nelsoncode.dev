@@ -4,6 +4,9 @@ import Image from "next/image";
 function Home() {
   const path =
     process.env.NODE_ENV === "development" ? "" : "https://www.nelsoncode.dev";
+
+  const description =
+    "I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day.";
   return (
     <>
       <Head>
@@ -12,25 +15,16 @@ function Home() {
         <meta property="og:url" content={path} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Nelson Hernández | NelsonCode" />
-        <meta
-          property="og:description"
-          content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
-        />
+        <meta property="og:description" content={description} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@nelsoncode_Dev" />
+        <meta name="twitter:site" content="@nelsoncode_dev" />
         <meta name="twitter:creator" content="@nelsoncode_dev" />
-        <meta
-          name="twitter:description"
-          content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
-        ></meta>
+        <meta name="twitter:description" content={description}></meta>
         <meta property="og:title" content="Nelson Hernández | NelsonCode" />
         <meta property="og:image" content={`${path}/preview.png`} />
         <meta property="og:image:width" content="1920" />
         <meta property="og:image:height" content="1080" />
-        <meta
-          name="description"
-          content="I'm a Frontend Developer. I like to design exceptional digital experiences. I also love to share what I learn every day."
-        />
+        <meta name="description" content={description} />
       </Head>
       <div className="m-auto">
         <div className="grid h-screen grid-box-init">
