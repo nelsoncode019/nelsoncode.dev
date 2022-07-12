@@ -12,6 +12,7 @@ function Home() {
       <Head>
         <link rel="icon" href={`${path}/nelson.jpg`} />
         <title>Nelson Hernández | NelsonCode</title>
+        <meta name="theme-color" content="#DC2777" />
         <meta property="og:url" content={path} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Nelson Hernández | NelsonCode" />
@@ -226,7 +227,7 @@ function Home() {
               />
             </div>
           </div>
-          <div className="p-4 md:pt-28">
+          <div id="about" className="p-4 md:pt-28">
             <div className="text-4xl md:text-7xl font-extrabold pt-2">
               <span className="bg-clip-text text-transparent bg-gradient-to-r  from-red-400 to-indigo-400">
                 1. About
