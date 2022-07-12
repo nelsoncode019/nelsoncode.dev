@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <nav className="flex justify-between">
-        <div className="cursor-pointer rounded-lg px-3 py-3 ">
+        <div className="hidden md:block cursor-pointer rounded-lg px-3 py-3 ">
           <Link href="/" passHref>
             Nelson Hernández
           </Link>
